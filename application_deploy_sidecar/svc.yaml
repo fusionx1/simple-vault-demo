@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: k8s-transit-app
+  name: k8s-secret-app
 spec:
   selector:
-    app: k8s-transit-app
+    app: k8s-secret-app
   ports:
   - protocol: TCP
     port: 5000

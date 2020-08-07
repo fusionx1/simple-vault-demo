@@ -13,5 +13,5 @@ cd ..
 sleep 5s
 
 kubectl apply -f ./application_deploy_sidecar
-kubectl get svc k8s-transit-app
+kubectl get svc k8s-secret-app
 
